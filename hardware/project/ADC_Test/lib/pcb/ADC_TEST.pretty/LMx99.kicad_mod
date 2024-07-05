@@ -1,0 +1,234 @@
+(footprint "LMx99"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.096 0)
+		(layer "F.SilkS")
+		(uuid "fc366b0d-c946-475a-a4db-a25ab122cf2b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "LMx99H"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "960b0d18-f2a7-4b69-9c0c-66ef146d422d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06977bfb-951f-4310-beda-1a27c2018769")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e05581f3-4e16-4193-b12e-4f766351abe9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdbc0f9d-f9fc-4fe2-83c7-3f687a8d32b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.484448 -2.494499)
+		(end -2.572281 -1.582331)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4e21089-43d5-4c3f-aa38-2f02ce4f9ea6")
+	)
+	(fp_line
+		(start -2.494499 -3.484448)
+		(end -3.484448 -2.494499)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19a4d468-3c47-479b-8629-3a22573fc95e")
+	)
+	(fp_line
+		(start -1.582331 -2.572281)
+		(end -2.494499 -3.484448)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49a4e5db-56cb-4af4-af27-95e404c6486f")
+	)
+	(fp_arc
+		(start -1.582331 -2.572281)
+		(mid 2.135374 2.135551)
+		(end -2.57215 -1.582544)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed32bbfe-2450-4582-851a-725b27e41871")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b9a83c91-fc0e-4f96-9d63-f2555f2ba912")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.826 -3.048)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7e3b14e4-91e3-45cd-a60f-8c7073fa6766")
+	)
+	(fp_line
+		(start -3.246616 -2.426372)
+		(end -2.419301 -1.599057)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf72805a-3f49-434a-b858-816f73f89f36")
+	)
+	(fp_line
+		(start -2.426372 -3.246616)
+		(end -3.246616 -2.426372)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6eb92ca-a6f5-4542-8aef-eecb4bbd685f")
+	)
+	(fp_line
+		(start -1.599057 -2.419301)
+		(end -2.426372 -3.246616)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bba769f2-88c6-42fb-94c3-49b63bbfef8f")
+	)
+	(fp_arc
+		(start -1.599057 -2.419301)
+		(mid 2.051076 2.050143)
+		(end -2.420029 -1.597956)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2521a4e9-9bf5-450e-a96f-d0c75c8d5aef")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "491ca544-e251-42b5-ab7f-c7ce3b60e621")
+	)
+	(pad "1" thru_hole oval
+		(at -1.27 0)
+		(size 1.6 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ca11f4c1-d688-480e-afaf-6cd631bf6d14")
+	)
+	(pad "2" thru_hole oval
+		(at 0 1.27)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8767aa91-3746-4c81-bf74-1014edc9e570")
+	)
+	(pad "3" thru_hole oval
+		(at 1.27 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ddbd0c07-60fb-4ee6-ad6a-ef80cb590272")
+	)
+	(pad "4" thru_hole oval
+		(at 0 -1.27)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "479bff95-831a-406f-bd0f-8e4e7c6959e8")
+	)
+	(model "${KIPRJMOD}/lib/3d/O-46-4pins.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 135)
+		)
+	)
+	(model "${KIPRJMOD}/lib/3d/TO-46-4pins.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 45)
+		)
+	)
+)

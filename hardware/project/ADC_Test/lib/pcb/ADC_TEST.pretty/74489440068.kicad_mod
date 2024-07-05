@@ -1,0 +1,152 @@
+(footprint "74489440068"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "COUPLED INDUCTOR  WE-TDC 8038")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "c9a7c2c8-0b25-44ce-8c0d-55ec76b01624")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "74489440068"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "bf9cb04c-e848-4d31-bf39-a98bdb3e3226")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea0018fc-8fbe-4e46-ada2-78ac546499ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9d98ac4-2ae7-4c70-8f8c-ee1b0d19509f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ffdcd1b-7efb-47b8-b86e-63f0ba50a79c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 -2.286)
+		(end 0.35921 -2.286)
+		(stroke
+			(width 0.24)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b899cdd2-1909-49ef-b554-f973607bc493")
+	)
+	(fp_line
+		(start -4.826 -4.826)
+		(end 4.826 -4.826)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5304eb2-3d94-403a-affa-7e89be1d82d2")
+	)
+	(fp_line
+		(start -4.826 4.826)
+		(end -4.826 -4.826)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bce23c48-7b11-4e40-b55e-cef2862046c3")
+	)
+	(fp_line
+		(start 4.826 -4.826)
+		(end 4.826 4.826)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2d25768-d792-4270-8ed5-affb51cc4050")
+	)
+	(fp_line
+		(start 4.826 4.826)
+		(end -4.826 4.826)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4181fe82-0ba7-4be8-99dd-c63095774a77")
+	)
+	(pad "1" smd rect
+		(at 0 -3.8)
+		(size 3.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "acf7dc9c-6a8a-411a-88bc-a66606fc2e7b")
+	)
+	(pad "2" smd rect
+		(at -3.8 0 90)
+		(size 3.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ecfc0d91-215e-40d3-9c3f-8577a18dc2b6")
+	)
+	(pad "3" smd rect
+		(at 0 3.8)
+		(size 3.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f353d724-0c79-4d63-b0c4-0c9a65eeb4c9")
+	)
+	(pad "4" smd rect
+		(at 3.8 0 90)
+		(size 3.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "47d62186-4fb4-4129-9d37-16e34faa1cb1")
+	)
+	(model "${KIPRJMOD}/lib/3d/74489440012.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

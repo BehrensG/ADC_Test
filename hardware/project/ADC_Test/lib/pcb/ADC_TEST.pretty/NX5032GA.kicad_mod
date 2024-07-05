@@ -1,0 +1,189 @@
+(footprint "NX5032GA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Crystal")
+	(property "Reference" "REF**"
+		(at 0 -2.159 0)
+		(layer "F.SilkS")
+		(uuid "ce8819d8-cc97-44a8-9929-52a5022a4422")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "NX5032GA"
+		(at 0 2.286 0)
+		(layer "F.Fab")
+		(uuid "6aa9c370-b2f5-4931-a6cd-197a3c419ef0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aa02f70-6493-42df-b82a-82feea012e41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94b1a8a4-6b6f-4545-b0bb-5bc451a11a2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7befcc20-988f-4dd6-95b0-8b93117d4925")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -1.6)
+		(end -2.5 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04fa28e1-7054-4a0a-8b5c-c4bbb8fd6227")
+	)
+	(fp_line
+		(start -2.5 -1.6)
+		(end 2.5 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "137e183e-ae87-4833-9584-c82e2c9b300d")
+	)
+	(fp_line
+		(start -2.5 1.6)
+		(end -2.5 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "450523f5-c435-4f83-933e-cc56e2342662")
+	)
+	(fp_line
+		(start -2.5 1.6)
+		(end 2.5 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26d16075-168c-4061-8502-40cb3bd925b1")
+	)
+	(fp_line
+		(start 2.5 -1.6)
+		(end 2.5 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e65d416f-b1f9-40e1-a0ec-1277d40f61ff")
+	)
+	(fp_line
+		(start 2.5 1.6)
+		(end 2.5 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5d6c90f-77a9-4bef-9ee5-4388ae847a8d")
+	)
+	(fp_line
+		(start -3.175 -1.778)
+		(end 3.175 -1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "331610b0-898b-4aec-8054-b48f857e5194")
+	)
+	(fp_line
+		(start -3.175 1.778)
+		(end -3.175 -1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a24fc4e9-d87a-4154-8ccc-6452066765af")
+	)
+	(fp_line
+		(start 3.175 -1.778)
+		(end 3.175 1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "062539ed-4508-49d9-87ff-80676d0ca393")
+	)
+	(fp_line
+		(start 3.175 1.778)
+		(end -3.175 1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5df49087-a80d-461d-8d7a-4009164c28c7")
+	)
+	(pad "1" smd rect
+		(at -2 0)
+		(size 2 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "375e4b81-e8d6-4fd5-abe7-2167805f6e18")
+	)
+	(pad "2" smd rect
+		(at 2 0)
+		(size 2 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "14f8f787-9c5f-4096-9678-dcd0839935ae")
+	)
+	(model "${KIPRJMOD}/lib/3d/NX5032GA.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,189 @@
+(footprint "9012"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "COTO Miniature Molded SIP Reed Relay")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "f0975121-4619-4024-8a36-25673f2adfcf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "9012"
+		(at 0 2.7 0)
+		(layer "F.Fab")
+		(uuid "2fcde508-bb4b-4719-a50a-a2a49a98ada9")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5e8406b-5edf-42d6-999e-5083be605028")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a7f11f4-c350-496a-aadd-d295f7cff10c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a40271ce-84aa-49cd-9d76-7d4a6fb2e876")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.1 -2)
+		(end 5.1 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8a17396-0284-480c-ae0f-80fb24fd6267")
+	)
+	(fp_line
+		(start -5.1 2)
+		(end -5.1 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c368c5b-6110-4b8b-bdc6-42e91b20c0db")
+	)
+	(fp_line
+		(start 5.1 -2)
+		(end 5.1 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c2d93c2-8e42-4e08-ab08-508b16961fb2")
+	)
+	(fp_line
+		(start 5.1 2)
+		(end -5.1 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cae9680-b8e4-4e11-bd3a-53de60efc331")
+	)
+	(fp_line
+		(start -5.2 -2.1)
+		(end -5.2 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de594195-990e-4ac6-b513-13471182c40f")
+	)
+	(fp_line
+		(start -5.2 2.1)
+		(end 5.2 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b70670d3-60be-4ff2-bf4d-eaa7155f2ed5")
+	)
+	(fp_line
+		(start 5.2 -2.1)
+		(end -5.2 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2125e35a-9cf4-4bba-b9b8-0f95e63fe503")
+	)
+	(fp_line
+		(start 5.2 2.1)
+		(end 5.2 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0524ae02-ae33-486f-b073-abe8a763a692")
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f036429-49ac-4fbe-8c3c-9f4858cf0b50")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6d65226-53c2-4a2b-a479-72d81db11afe")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6b98077-78b3-4159-af1b-4d436c6f4827")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4018c562-3f54-4922-9671-80c08f30e066")
+	)
+	(model "${KIPRJMOD}/lib/3d/9012.stp"
+		(offset
+			(xyz 1.25 0.15 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

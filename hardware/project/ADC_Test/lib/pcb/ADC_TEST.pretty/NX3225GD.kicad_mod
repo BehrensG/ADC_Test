@@ -1,0 +1,129 @@
+(footprint "NX3225GD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr " A small surface-mount type crystal unit, ideal for an engine control CPU clock")
+	(property "Reference" "REF**"
+		(at 0 -2.032 0)
+		(layer "F.SilkS")
+		(uuid "dbbf69a1-4ebe-4379-b496-aed723e01c5c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "NX3225GD"
+		(at 0 2.286 0)
+		(layer "F.Fab")
+		(uuid "3b591f4b-66c6-4f3e-96f6-d3bbec1ee910")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3c471da-67c8-4cd5-9fae-1fb7d993adc6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f95b005-a337-4f5e-adec-e0887c759f7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45e573ec-559e-4cbf-9e1c-05bd002c7216")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.905 -1.524)
+		(end 1.905 -1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a731cf00-eae8-49fc-a189-3c7bf587075f")
+	)
+	(fp_line
+		(start -1.905 1.524)
+		(end -1.905 -1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04ee349d-de6f-4edf-873f-5501633224f5")
+	)
+	(fp_line
+		(start 1.905 -1.524)
+		(end 1.905 1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6aaa8a0-f6a1-4237-a9ae-5aa501d022dd")
+	)
+	(fp_line
+		(start 1.905 1.524)
+		(end -1.905 1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bc39a66f-3347-400c-9904-1808c2e40247")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 1.5 2.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "abd6d2ab-615a-4260-94e2-709cbb0bc912")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 1.5 2.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a943ed12-6231-43b7-8570-0f21c0a3bc6b")
+	)
+	(model "${KIPRJMOD}/lib/3d/NX3225GD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name ADC_TEST)(type Legacy)(uri /home/grzegorz/git/ADC_Test/hardware/lib/sch/ADC_TEST.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "ADC_TEST")(type "Legacy")(uri "${KIPRJMOD}/lib/sch/ADC_TEST.lib")(options "")(descr ""))
 )
