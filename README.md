@@ -6,9 +6,7 @@
 <h2> Design </h2>
 
 The project features a 4-layer PCB designed in the Eurocard 3U format. The PCB operates on a 24V DC power supply. Communication is handled via Ethernet, utilizing a RAW TCP protocol with SCPI command format.
-<p align="center">
- <img src="img/zones.png" width="600"></img>
-</p>
+<p align="center"><img src="img/zones.png" width="600"></img></p>
 
 
 <p></p>
@@ -21,8 +19,7 @@ Key components include:
 </ul>
 The analog front end supports three bipolar ranges: 1V, 10V, and 100V DC.
 <p></p>
-<p align="center">
- <img src="img/pcb.png" width="600"></img>
+<p align="center"><img src="img/pcb.png" width="600"></img></p>
 
 
 <h2> Test </h2>
@@ -253,3 +250,46 @@ The calibrator voltage specification for voltage ranges are as follows:
         <td>0.0020</td>
     </tr>
 </table>
+
+<h3> Measurements graphs</h3>
+
+<p><b>NOTE</b> : DMM and PCB sampling was not synchronized.</p>
+
+<p align="center"><b>Positive voltage samples</b></p>
+
+<p align="center"><img src="img/M0V1R1V.png" width="900"></img></p>
+<p align="center"><img src="img/M0V2R1V.png" width="900"></img></p>
+<p align="center"><img src="img/M0V5R1V.png" width="900"></img></p>
+<p align="center"><img src="img/M1V0R1V.png" width="900"></img></p>
+<p align="center"><img src="img/M1V0R10V.png" width="900"></img></p>
+<p align="center"><img src="img/M2V0R10V.png" width="900"></img></p>
+<p align="center"><img src="img/M5V0R10V.png" width="900"></img></p>
+<p align="center"><img src="img/M10V0R10V.png" width="900"></img></p>
+<p align="center"><img src="img/M10V0R100V.png" width="900"></img></p>
+<p align="center"><img src="img/M20V0R100V.png" width="900"></img></p>
+<p align="center"><img src="img/M50V0R100V.png" width="900"></img></p>
+<p align="center"><img src="img/M100V0R100V.png" width="900"></img></p>
+
+<p align="center"><b>Negative voltage samples</b></p>
+
+<p align="center"><img src="img/Mn0V1R1V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn0V2R1V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn0V5R1V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn1V0R1V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn1V0R10V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn2V0R10V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn5V0R10V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn10V0R10V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn10V0R100V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn20V0R100V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn50V0R100V.png" width="900"></img></p>
+<p align="center"><img src="img/Mn100V0R100V.png" width="900"></img></p>
+<p></p>
+<h2>Links</h2>
+
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/Integrating_ADC" target="_blank">Integraring ADC</a></li>
+        <li><a href="https://patentimages.storage.googleapis.com/1c/fb/ba/970d5c758ec96f/US5321403.pdf" target="_blank">Multi-slope ADC patent</a></li>
+        <li><a href="https://github.com/jaromir-sukuba/vm_mini" target="_blank">vm_mini</a></li>
+        <li><a href="https://www.eevblog.com/forum/metrology/diy-6-5-digit-voltmeter/" target="_blank">DIY 6.5 digit voltmeter</a></li>
+</ul>
