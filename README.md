@@ -1,7 +1,7 @@
 <h1> ADC_Test </h1>
-<blockquote>
-    PCB design to test the multislope ADC concept created by Jaromir Sukuba (https://github.com/jaromir-sukuba).
-</blockquote>
+
+PCB design to test the multislope ADC concept created by Jaromir Sukuba (https://github.com/jaromir-sukuba).
+
 
 <h2> Design </h2>
 
@@ -288,7 +288,7 @@ The calibrator voltage specification for voltage ranges are as follows:
 <h2>Links</h2>
 
 <ul>
-    <li><a href="https://en.wikipedia.org/wiki/Integrating_ADC" target="_blank">Integraring ADC</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Integrating_ADC" target="_blank">Integrating ADC</a></li>
         <li><a href="https://patentimages.storage.googleapis.com/1c/fb/ba/970d5c758ec96f/US5321403.pdf" target="_blank">Multi-slope ADC patent</a></li>
         <li><a href="https://github.com/jaromir-sukuba/vm_mini" target="_blank">vm_mini</a></li>
         <li><a href="https://www.eevblog.com/forum/metrology/diy-6-5-digit-voltmeter/" target="_blank">DIY 6.5 digit voltmeter</a></li>
